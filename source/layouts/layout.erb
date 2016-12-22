@@ -3,28 +3,24 @@
   <head>
     <meta charset="utf-8">
 
+<script src="https://use.fontawesome.com/3a92cba4c0.js"></script>
+<script src="https://use.fontawesome.com/ace1c20b91.js"></script>
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
-    <!-- For Bootstrap responsiveness -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <%= stylesheet_link_tag "all" %>
+    <link rel="stylesheets" href="">
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
-    
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- Leave those next 4 lines if you care about users using IE8 -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body class="<%= page_classes %>">
+
     <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,37 +32,77 @@
             <span class="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag 'logo.svg' %>
+            <%= image_tag "logohe.png" %>
           <% end %>
         </div>
+
+
+
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "/concept.html" do %>
+              </i> Concept
               <% end %>
             </li>
             <li>
-              <% link_to "/contact.html" do %>
-                <i class="fa fa-envelope-o"></i> Contact
+              <% link_to "/menu.html" do %>
+              </i> Menu
+              <% end %>
+            </li>
+            <li>
+              <% link_to "/team.html" do %>
+                <i class="fa fa-users" aria-hidden="true"></i>L'équipe
               <% end %>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                <li><a href="https://www.facebook.com/hugo.tessierhuort"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/healtheat_bdx"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
               </ul>
             </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Panier</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <%= yield %>
+
+<div id="banner">
+    <div class="vertical-spacer"></div>
+      <div id="footer">
+       <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-3">
+            <ul class="list-inline social">
+              <li>
+                <a href="https://facebook.com/iceme">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/iceme">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-9">
+            <p class="text-right">
+              Healh'eat est un projet d'étudiants-entrepreneurs de <a href="http://www.kedgebs.com/fr">Kedge Business School</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
+
+
   </body>
 </html>

@@ -1,0 +1,57 @@
+.lead {
+  padding-top: 50px;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+
+}
+
+#wrapper {
+height: 850px;
+background-image: image-url('backgroundhe1.jpg');
+color: white;
+padding: 150px 0;
+background-size: cover;
+height: 900px;
+padding-left: 50px;
+}
+#wrapper h1 {
+font-size: 150px;
+color: white;
+position: relative;
+top: 10px;
+}
+
+#wrapper h2 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.container h1 {
+  color: $green
+}
+
+.backgroundicones {
+  background-color: white;
+}
+
+
