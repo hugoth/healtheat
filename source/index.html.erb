@@ -4,16 +4,17 @@
   <div class="banner-content">
     <h1>health'eat</h1>
     <p>Mangez frais, mangez bien, mangez sain</p>
-    <div class="text-center"> <p><a href="menu.html" class="btn-treehouse"> Commandez</a></p> </div>
+    <div class="text-center"> <p><a href="index.html/container" class="btn-treehouse"> Commandez</a></p> </div>
   </div>
  </div>
 </div>
 
 
 
+
 <div class="backgroundicones">
   <div class="vertical-spacer">
-    <div class="container">
+    <div class="container alignlogo">
       <div class="row">
 
         <div class="col-sm-6 col-xs-12">
@@ -65,7 +66,31 @@
 
 
 
+<!-- bouton lydia -->
 
+    <div id="paymentButton">Payment</div>
+
+    <!-- CREATION DU FORMULAIRE DE PAIMENT LYDIA -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        // Doit être la référence de la commande chez le marchand.
+        var orderRef = new Date();
+        $('#paymentButton').payWithLYDIA({
+          amount: 0.5,
+          vendor_token: '547ed8db34703018097269',
+          recipient: '0650939350',
+
+          message : "Facture 004",
+          orderRef: orderRef.toString(),
+          env: 'test',
+          render : '<pre>Payez avec Lydia</pre>'
+        });
+
+      });
+    </script>
+
+<!-- fin du bouton  -->
 
 
 
@@ -87,6 +112,16 @@
               </figure>
               <h2>La classique</h2>
              </div>
+             <button
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="La classique"
+    data-item-price="3.00"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/bacon"
+    data-item-description="Some fresh bacon">
+        Ajouter
+</button>
             </li>
           </div>
 
@@ -101,6 +136,16 @@
                </figure>
                <h2>L'originale</h2>
             </div>
+            <button
+    class="snipcart-add-item"
+    data-item-id="2"
+    data-item-name="L'orginale"
+    data-item-price="3.00"
+    data-item-weight="20"
+    data-item-url="http://myapp.com/products/bacon"
+    data-item-description="Some fresh bacon">
+        Ajouter
+</button>
             </li>
          </ul>
       </div>
@@ -120,7 +165,7 @@
        <div class= "demo-3">
         <li>
           <figure>
-            <img src="http://placehold.it/200" alt="" class="img-circle"">
+            <img src="images/products/smoothie.jpg" width="400px" alt="" class="img-circle"">
             <figcaption>
             </figcaption>
           </figure>
