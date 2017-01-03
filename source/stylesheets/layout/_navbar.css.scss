@@ -3,7 +3,7 @@
  * ------------------------------------- */
 $navbar-color: #1ABC9C;
 $navbar-hover-color: $green;
-$navbar-font-family: $header-font;
+$navbar-font-family: $my-font;
 $navbar-bg: transparent;
 
 /* -------------------------------------
@@ -90,7 +90,7 @@ $navbar-profile-border-width: 2px;
   }
 
   .navbar-brand img, .navbar-brand svg {
-    height: $navbar-height;
+    height: 80px;
     padding: 0px;
   }
 
@@ -149,6 +149,4 @@ $navbar-profile-border-width: 2px;
   }
 }
 
-.btn {
-  color: green;
-}
+

@@ -91,7 +91,7 @@
     if (data.render) {
       $(this).html(data.render);
     } else {
-      $(this).html('<a href="#" onclick="return false;"><img class="lydia_payment_button" src="source/index.html.erb'+lydiaProcess.baseUrl+'assets/img/paymentbutton.png" height="40" /></a>');
+      $(this).html('<a href="#" onclick="return false;"><img class="lydia_payment_button" src="'+lydiaProcess.baseUrl+'assets/img/paymentbutton.png" height="40" /></a>');
     }
 
     $(this).click(function () {

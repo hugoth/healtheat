@@ -8,18 +8,39 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
+}
+
+
    h1 {
-    font-size: 90px;
+    font-size: 100px;
     font-weight: bold;
+    font-family: $my-font ;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   }
    p {
+    font-family: $my-font ;
     font-size: 30px;
     font-weight: lighter;
     color: white;
     margin-bottom: 20px;
   }
+
+h2, h3 {
+  font-family: $my-font;
 }
+
+// titre salades et smoothies
+.salades h1 {
+color: $healthygreen;
+font-size: 70px;
+}
+.smoothies h1 {
+color: $healthygreen;
+font-size: 70px;
+}
+ // fin salades et smoothies
+
 
 .backgroundicones {
   background-color: white;
@@ -32,16 +53,41 @@
 
 .text-center p {
   padding-top: 25%;
-}
+  }
 
 .alignlogo {
   padding-left: 80px;
 }
-
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
   .imageicones img {
     width: 50px;
   }
+  .banner { width: 100px; }
+}
+
+
+.map {
+  padding-bottom: 200px;
+}
+
+.map img{
+  height: 40vh;
+  padding-left: 0;
+  padding-top: 100px;
+  display: flex;
+}
+
+.snipcardbutton {
+  color: $healthygreen;
+  background: transparent;
+  font-size: 20px;
+  transition: background 0.3s ease;
+  border: 1px solid $healthygreen;
+  border-radius: 3px;
+}
+
+.snipcardbutton:hover {
+  background-color: $blue;
 }

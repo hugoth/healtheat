@@ -3,8 +3,8 @@
  * ------------------------------------- */
 // Google fonts
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-$base-font: f"ont-family", 'Lobster', cursive;
-$header-font: "font-family", 'Lobster', cursive;
+$my-font: "font-family", fonartoregular, cursive;
+$header-font: "font-family", fonartoregular, cursive;
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -15,6 +15,23 @@ $header-font: "font-family", 'Lobster', cursive;
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+
+@font-face {
+    font-family: 'fonartoregular';
+    src: url('fonarto-webfont.eot');
+    src: url('fonarto-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonarto-webfont.woff2') format('woff2'),
+         url('fonarto-webfont.woff') format('woff'),
+         url('fonarto-webfont.svg#fonartoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$my-font: "fonartoregular";
+
+
 
 // Font-size and line-height
 $base-size: 16px;
@@ -30,6 +47,11 @@ $yellow: #FDB631;
 $orange: #E67E22;
 $green: #00E089;
 $purple: #6452BD;
+$scandal: #A9DBCE;
+$cgreen: #00D7A7;
+$healthygreen: #01CDA4;
+
+
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222

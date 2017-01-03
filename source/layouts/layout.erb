@@ -17,7 +17,10 @@
     <link rel="stylesheets" href="">
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
+<script src="https://use.fontawesome.com/020458ef7b.js"></script>
 
+
+<link rel="stylesheets" href="stylesheets.scss" type="text/css" charset="utf-8" />
 
 
 
@@ -36,7 +39,7 @@
             <span class="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag "logohe.png" %>
+            <%= image_tag "logohe1.png" %>
           <% end %>
         </div>
 
@@ -50,7 +53,7 @@
               <% end %>
             </li>
             <li>
-              <% link_to "/menu.html" do %>
+              <% link_to "/#lienverslemenu" do %>
               </i> Menu
               <% end %>
             </li>
@@ -62,11 +65,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/hugo.tessierhuort"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                <li><a href="https://www.facebook.com/healtheatbdx"><i class="fa fa-facebook-square"></i> Facebook</a></li>
                 <li><a href="https://www.instagram.com/healtheat_bdx"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
               </ul>
             </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Panier</a></li>
+            <li><a href="http://localhost:4567/#!/cart" class="btn-secondary">Panier</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -74,37 +77,84 @@
 
     <%= yield %>
 
-<div id="banner">
-    <div class="vertical-spacer"></div>
+<!-- <div id="banner">
       <div id="footer">
        <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-sm-3">
+          <div class="col-xs-4 col-sm-4">
             <ul class="list-inline social">
               <li>
                 <a href="https://facebook.com/iceme">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
-              <div class="col-xs-6 col-sm-3">
+              <div class="col-xs-4 col-sm-4">
                <li>
                 <a href="https://instagram.com/iceme">
                   <i class="fa fa-instagram"></i>
                 </a>
                </li>
+               <div class="col-xs-4 col-sm-4">
+              <p class="text-right">
+                Healh'eat sas <a href="http://www.kedgebs.com/fr">Kedge Business School</a>
+              </p>
               </div>
             </ul>
-          </div>
-          <div class="col-xs-6 col-sm-9">
-            <p class="text-right">
-              Healh'eat est un projet d'étudiants-entrepreneurs de <a href="http://www.kedgebs.com/fr">Kedge Business School</a>
-            </p>
           </div>
         </div>
       </div>
     </div>
  </div>
-
+ -->
+    <div id='contact'>
+    <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="adress">
+            <h3>Adresse</h3>
+            <p>2 place Camille Pelletan</p>
+            <p>33000</p>
+            <p>Bordeaux</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="contact">
+            <h3>Contact</h3>
+            <p>06 59 78 52 62</p>
+            <p>06 07 64 55 45</p>
+            <p>contact@behealtheat.com</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <div class="assistance">
+            <h3>Health'eat SAS</h3>
+            <p>Tous droit réservés</p>
+            <p>N'hésitez pas à nous donner votre avis</p>
+            <p>24h/24</p>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-xs-4 col-sm-4">
+            <ul class="list-inline social">
+              <li>
+                <a href="https://facebook.com/iceme">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <div class="col-xs-4 col-sm-4 col-md-6>
+               <li>
+                <a href="https://instagram.com/iceme">
+                  <i class="fa fa-instagram"></i>
+                </a>
+               </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!-- javascript snipcart -->
 
