@@ -9,7 +9,7 @@ $navbar-bg: transparent;
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
-$navbar-height: 50px;
+$navbar-height: 60px;
 $navbar-vertical-padding: 5px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
@@ -19,7 +19,7 @@ $navbar-border-bottom-color: grey;
  * Navbar button
  * ------------------------------------- */
 $navbar-btn-height: 40px;
-$navbar-btn-bg: lightgrey;
+$navbar-btn-bg: $scandal;
 $navbar-btn-color: white;
 $navbar-btn-horizontal-padding: 20px;
 $navbar-btn-radius: 2px;
@@ -38,7 +38,8 @@ $navbar-profile-border-width: 2px;
   background: $navbar-bg;
   font-family: $navbar-font-family;
   border: none;
-  font-weight: 20px;
+  font-weight: 100px;
+  font-size: 20px;
   padding-left: $navbar-horizontal-padding;
   padding-right: $navbar-horizontal-padding;
   border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
@@ -63,7 +64,7 @@ $navbar-profile-border-width: 2px;
 
   .navbar-nav > li > a:hover,
   .navbar-nav > .open > a:hover {
-    color: white;
+    color: $scandal;
     background-color: transparent;
   }
 
@@ -75,17 +76,17 @@ $navbar-profile-border-width: 2px;
     padding-bottom: $navbar-vertical-padding;
   }
 
-  .navbar-nav > li > a.btn {
+  .navbar-nav > li > a.btn-secondary {
     line-height: $navbar-btn-height;
     padding: 0 $navbar-btn-horizontal-padding;
     color: $navbar-btn-color;
-    border-radius: $navbar-btn-radius;
+    border-radius: 5px;
     margin-top: ($navbar-height + 2 * $navbar-vertical-padding - $navbar-btn-height) / 2;
     font-weight: bold;
-    background-color: $navbar-btn-bg;
+    background-color: $healthygreen;
     font-size: 20px;
     &:hover{
-      background-color: darken($navbar-btn-bg, 30%);
+      background-color: $navbar-btn-bg;
     }
   }
 
@@ -115,7 +116,7 @@ $navbar-profile-border-width: 2px;
 
   .navbar-nav > li > .dropdown-menu:before{
     position: absolute;
-    background: white;
+    background: $healthygreen;
     height: 10px;
     width: 10px;
     content: "\00a0";

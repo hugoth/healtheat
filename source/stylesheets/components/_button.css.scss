@@ -27,3 +27,17 @@
   background-color: $green;
 }
 // fin bouton panier
+
+
+.snipcardbutton {
+  color: $healthygreen;
+  background: transparent;
+  font-size: 20px;
+  transition: background 0.3s ease;
+  border: 1px solid $healthygreen;
+  border-radius: 3px;
+}
+
+.snipcardbutton:hover {
+  background-color: $blue;
+}

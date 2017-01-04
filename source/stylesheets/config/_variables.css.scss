@@ -17,19 +17,17 @@ $header-font: "font-family", fonartoregular, cursive;
 // $my-font: "Font Name";
 
 
-@font-face {
-    font-family: 'fonartoregular';
-    src: url('fonarto-webfont.eot');
-    src: url('fonarto-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonarto-webfont.woff2') format('woff2'),
-         url('fonarto-webfont.woff') format('woff'),
-         url('fonarto-webfont.svg#fonartoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+@font-face {font-family: "Fonarto";
+    src: url("//db.onlinewebfonts.com/t/b114f64e2461f6359b765880e98a7cf6.eot");
+    src: url("//db.onlinewebfonts.com/t/b114f64e2461f6359b765880e98a7cf6.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b114f64e2461f6359b765880e98a7cf6.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/b114f64e2461f6359b765880e98a7cf6.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/b114f64e2461f6359b765880e98a7cf6.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/b114f64e2461f6359b765880e98a7cf6.svg#Fonarto") format("svg");
 }
 
-$my-font: "fonartoregular";
+
+$my-font: "fonarto";
 
 
 

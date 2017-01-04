@@ -26,20 +26,43 @@
     margin-bottom: 20px;
   }
 
+
 h2, h3 {
   font-family: $my-font;
 }
 
+
 // titre salades et smoothies
+
+.salades {
+  padding-bottom: 500px;
+}
+
 .salades h1 {
 color: $healthygreen;
 font-size: 70px;
 }
+
+.smoothies {
+  padding-bottom: 500px;
+}
+
 .smoothies h1 {
 color: $healthygreen;
 font-size: 70px;
 }
- // fin salades et smoothies
+
+// .demo-3 {
+//   padding-top: 50px;
+// }
+// .demo-3 img {
+// width: 10px;
+// height: 10px;
+// border-radius:50%;
+// -webkit-border-radius:50%;
+// -moz-border-radius: 50%;
+// }
+// fin salades et smoothies
 
 
 .backgroundicones {
@@ -79,15 +102,22 @@ font-size: 70px;
   display: flex;
 }
 
-.snipcardbutton {
-  color: $healthygreen;
-  background: transparent;
-  font-size: 20px;
-  transition: background 0.3s ease;
-  border: 1px solid $healthygreen;
-  border-radius: 3px;
-}
 
-.snipcardbutton:hover {
-  background-color: $blue;
-}
+//   background-image: url("images/background/bgopac.jpg");
+// }
+
+
+@media (max-width: 400px) {
+  .banner {
+      height: 800px;
+    }
+    .banner, .banner-content
+     {
+      display: block;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+
+
