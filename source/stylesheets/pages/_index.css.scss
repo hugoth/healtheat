@@ -44,13 +44,23 @@ font-size: 70px;
 }
 
 .smoothies {
-  padding-bottom: 500px;
+  padding-bottom: 700px;
+  padding-top: 100px;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .smoothies h1 {
 color: $healthygreen;
 font-size: 70px;
 }
+.smoothies h2 {
+  font-size: 25px;
+  white-space: nowrap;
+
+}
+
 
 // .demo-3 {
 //   padding-top: 50px;
@@ -102,9 +112,10 @@ font-size: 70px;
   display: flex;
 }
 
+.bgopac {
+  background-image: url(images/background/bgopac.jpg);
+}
 
-//   background-image: url("images/background/bgopac.jpg");
-// }
 
 
 @media (max-width: 400px) {
