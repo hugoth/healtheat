@@ -8,3 +8,12 @@
 }
 
 
+/* -------------------------------------
+ * footer media queries
+ * ------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 600px
+  }
+}

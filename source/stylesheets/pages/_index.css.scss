@@ -92,13 +92,6 @@ font-size: 70px;
   padding-left: 80px;
 }
 
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-  .imageicones img {
-    width: 50px;
-  }
-  .banner { width: 100px; }
-}
 
 
 .map {
@@ -117,18 +110,23 @@ font-size: 70px;
 }
 
 
+/* -------------------------------------
+ * banner media queries
+ * ------------------------------------- */
 
-@media (max-width: 400px) {
-  .banner {
-      height: 800px;
-    }
-    .banner, .banner-content
-     {
-      display: block;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .imageicones img {
+    width: 50px;
   }
+  .banner { width: 100px; }
+}
 
-
-
+@media screen and (max-width: 768px) {
+  .banner {
+    width: 100vh;
+    background-size: cover !important;
+    }
+}
