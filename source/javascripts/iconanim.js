@@ -11,3 +11,19 @@ $(document).ready(function (){
   }, { offset: '100%' });
   });
 });
+
+
+
+$(document).ready(function (){
+
+  $('.imagesicones').css('opacity', '0');
+
+  $('.backgroundicones').waypoint(function() {
+    $('.imagesicones').addClass('animated fadeInUp');
+    $('.imagesicones').css('opacity', '1');
+      $('paragraphe').delay(100).queue(function () {
+        $(this).addClass('animated fadeInRight');
+        $(this).css('opacity', '1');
+  }, { offset: '100%' });
+  });
+});
