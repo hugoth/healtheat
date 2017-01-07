@@ -40,12 +40,14 @@
   transition: background 0.3s ease;
   border: 1px solid $healthygreen;
   border-radius: 3px;
+  font-family: $my-font;
 }
 
 .snipcardbutton:hover {
-  background-color: $blue;
+  background-color: $green;
+  text-decoration: none;
+  color: white;
 }
-
 .buttonsmoothie {
   margin-top: 20px;
 }

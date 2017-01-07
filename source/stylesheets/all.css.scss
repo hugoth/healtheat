@@ -1,20 +1,24 @@
 // General Style Variables
 @import "config/variables";
 @import "config/bootstrap_variables";
-@import "stylesheet";
+// @import "stylesheet";
 // External Frameworks
 @import "bootstrap";
+@import "compass/css3";
+@import "compass/css3/user-interface";
+// @import "bootstrap-variables";
 @import "font-awesome-sprockets";
 @import "font-awesome";
-@import "stylesheet";
+// @import "stylesheet";
 // Our CSS
 @import "layout/*";
 @import "components/button";
 @import "pages/index";
 @import "pages/home";
 @import "vendor/*";
+@import "vendor/animationcheatsheet";
 @import "pages/features";
 @import "vendor/animationproducts";
 @import "layout/footer";
-@import "stylesheet";
+// @import "stylesheet";
 @import url(//db.onlinewebfonts.com/c/b114f64e2461f6359b765880e98a7cf6?family=Fonarto);

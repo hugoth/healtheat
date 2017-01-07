@@ -105,9 +105,6 @@ font-size: 70px;
   display: flex;
 }
 
-.bgopac {
-  background-image: url(images/background/bgopac.jpg);
-}
 
 
 /* -------------------------------------
@@ -119,7 +116,7 @@ font-size: 70px;
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
   .imageicones img {
-    width: 50px;
+    width: 80px;
   }
   .banner { width: 100px; }
 }
@@ -131,3 +128,21 @@ font-size: 70px;
     background-size: cover !important;
     }
 }
+
+@media (max-width: 480px) {
+  .banner {
+    width: 100vh;
+    background-size: cover !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .backgroundicones {
+    justify-content: center;
+  }
+}
+
+
+
+
+
