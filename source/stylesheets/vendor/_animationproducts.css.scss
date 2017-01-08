@@ -55,11 +55,13 @@
     background-color:#00E089;
     text-align:center;
     backface-visibility:hidden;
-    -webkit-transform:rotateY(-180deg);
-    -moz-transform:rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    transform:rotateY(-180deg);
+
+}
+.demo-3 figure figcaption {
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
     -webkit-transition:all .5s;
     -moz-transition:all .5s;
     -o-transition: all .5s;
@@ -75,17 +77,17 @@
     transition:all .5s
 }
 .demo-3 figure:hover img,figure.hover img {
-    -webkit-transform:rotateY(180deg);
-    -moz-transform:rotateY(180deg);
-    -o-transform:rotateY(180deg);
-    -ms-transform:rotateY(180deg);
-    transform:rotateY(180deg)
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform:rotate(180deg)
 }
 .demo-3 figure:hover figcaption,figure.hover figcaption {
-    -webkit-transform:rotateY(0);
-    -moz-transform:rotateY(0);
-    -o-transform:rotateY(0);
-    -ms-transform:rotateY(0);
+    -webkit-transform:rotate(0);
+    -moz-transform:rotate(0);
+    -o-transform:rotate(0);
+    -ms-transform:rotate(0);
     transform:rotateY(0)
 }
 

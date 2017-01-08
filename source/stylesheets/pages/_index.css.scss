@@ -106,7 +106,9 @@ font-size: 70px;
   display: flex;
 }
 
-
+i {
+  width: 20px;
+}
 
 /* -------------------------------------
  * banner media queries
@@ -132,17 +134,18 @@ font-size: 70px;
 
 @media (max-width: 480px) {
   .banner {
-    width: 100vh;
+    width: auto;
     background-size: cover !important;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-device-width: 480px){
    .backgroundicones {
+    width: auto;
     justify-content: center;
+    padding-left: 30px;
   }
 }
-
 
 
 
