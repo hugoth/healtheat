@@ -1,4 +1,6 @@
-
+body {
+  margin: auto;
+}
 .banner {
   color: white;
   text-align: center;
@@ -140,6 +142,8 @@ i {
 }
 
 @media all and (max-device-width: 480px){
+   body {
+    margin: auto }
    .backgroundicones {
     width: auto;
     justify-content: center;
