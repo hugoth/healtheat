@@ -128,7 +128,6 @@ i {
   .imageicones img {
     width: 80px;
   }
-  .banner { width: 100px; }
 }
 
 // media queries background top
@@ -140,7 +139,6 @@ i {
 
 @media (max-width: 480px) {
   .banner {
-    width: auto;
     background-size: cover !important;
     }
 }
