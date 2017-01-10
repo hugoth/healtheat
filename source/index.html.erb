@@ -1,94 +1,17 @@
 
 
 
-
-
+      <!-- banner partial -->
     <%= partial 'partials/banner' %>
 
 
+      <!-- features partial -->
+  <div class="backgroundicones">
 
-<div class="backgroundicones">
-  <div class="vertical-spacer">
-    <div class="container alignlogo">
-      <div class="row">
+    <%= partial 'partials/features' %>
 
-        <div class="col-sm-6 col-md-6 col-xs-6">
-          <div class="imageicones"><img src="images/icones/fruitsicone.png" class= "fadeleft" width="150px"></div>
-            <div class="paragraphe">
-            <p>
-              Du frais et fait maison maison chaque lundi, mardi et mercredi
-            </p>
-          </div>
-         </div>
+  </div>
 
-
-        <div class="col-sm-6 col-md-6 col-xs-6">
-          <div class="imageicones"><img src="images/icones/localisation.png" class= "fadeleft" width="110px"></div>
-           <div class="paragraphe">
-            <p>
-            Commandez avant 11h30, nous vous livrons à l'entrée de notre campus</strong>
-            </p>
-          </div>
-        </div>
-
-   </div>
-
-
-      <div class="row">
-        <div class="col-sm-6 col-md-6 col-xs-6">
-          <div class="imageicones">
-            <img src="images/icones/creditcard.png" class= "hello" width="150px">
-          </div>
-           <div class="paragraphe">
-          <p>
-            Pas de monnaie ? Nous non plus, payez avec <strong>Snipcard</strong>. Facile, clair et sécurisé !
-          </p>
-        </div>
-       </div>
-
-        <div class="col-sm-6 col-md-6 col-xs-6">
-          <div class="imageicones">
-            <img src="images/icones/creditcard.png" class= "hello" width="150px">
-          </div>
-           <div class="paragraphe">
-          <p>
-            Pas de monnaie ? Nous non plus, payez avec <strong>Snipcard</strong>. Facile, clair et sécurisé !
-          </p>
-        </div>
-       </div>
-
-   </div>
- </div>
-</div>
-
-
-
-<!-- bouton lydia -->
-
-<!--     <div id="paymentButton">Payment
-
-    <!- CREATION DU FORMULAIRE DE PAIMENT LYDIA -->
-
-<!--     <script type="text/javascript">
-      $(document).ready(function() {
-
-        // Doit être la référence de la commande chez le marchand.
-        var orderRef = new Date();
-        $('#paymentButton').payWithLYDIA({
-          amount: 0.5,
-          vendor_token: '547ed8db34703018097269',
-          recipient: '0650939350',
-
-          message : "Facture 004",
-          orderRef: orderRef.toString(),
-          env: 'test',
-          render : '<pre>Payez avec Lydia</pre>'
-        });
-
-      });
-    </script>
-</div> -->
-<!-- fin du bouton  -->
 
 
 <div class="backgroundgopac">
@@ -98,8 +21,48 @@
       <div class="text-center padded salades" id ="scrollcommand">
         <h1> Les salades</h1>
 
-          <ul class="list-inline">
-            <div class="col-xs-12 col-sm-6">
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+        <%= image_tag 'products/saladeune.jpg', width: '250px', class: 'img-circle' %>
+          <h2>La classique</h2>
+
+          <button
+            class="snipcart-add-item snipcardbutton"
+            data-item-id="2"
+            data-item-name="La classique"
+            data-item-price="3.00"
+            data-item-weight="20"
+            data-item-url="http://myapp.com/products/bacon"
+            data-item-description="Some fresh salade">Ajouter
+          </button>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6">
+
+        <%= image_tag 'products/saladedeux.jpg', width: '250px', class: 'img-circle' %>
+
+          <h2>l'Originale</h2>
+
+          <button
+            class="snipcart-add-item snipcardbutton"
+            data-item-id="3"
+            data-item-name="L'originale"
+            data-item-price="3.00"
+            data-item-weight="20"
+            data-item-url="http://myapp.com/products/bacon"
+            data-item-description="Some fresh salade"> Ajouter
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+          <!-- <ul class="list-inline">
             <div class= "demo-3">
              <li>
               <figure>
@@ -112,18 +75,18 @@
               <h2>La classique</h2>
              </div>
              <button
-    class="snipcart-add-item snipcardbutton"
-    data-item-id="2"
-    data-item-name="La classique"
-    data-item-price="3.00"
-    data-item-weight="20"
-    data-item-url="http://myapp.com/products/bacon"
-    data-item-description="Some fresh salade"> Ajouter
+                class="snipcart-add-item snipcardbutton"
+                data-item-id="2"
+                data-item-name="La classique"
+                data-item-price="3.00"
+                data-item-weight="20"
+                data-item-url="http://myapp.com/products/bacon"
+                data-item-description="Some fresh salade">Ajouter
              </button>
             </li>
-          </div>
+          </div> -->
 
-
+<!--
             <div class="col-xs-12 col-sm-6">
             <div class= "demo-3">
              <li>
@@ -135,21 +98,21 @@
                <h2>L'originale</h2>
             </div>
             <button
-    class="snipcart-add-item snipcardbutton"
-    data-item-id="3"
-    data-item-name="L'originale"
-    data-item-price="3.00"
-    data-item-weight="20"
-    data-item-url="http://myapp.com/products/bacon"
-    data-item-description="Some fresh salade"> Ajouter
+              class="snipcart-add-item snipcardbutton"
+              data-item-id="3"
+              data-item-name="L'originale"
+              data-item-price="3.00"
+              data-item-weight="20"
+              data-item-url="http://myapp.com/products/bacon"
+              data-item-description="Some fresh salade"> Ajouter
            </button>
             </li>
          </ul>
       </div>
   </div>
  </div>
- </div>
-</div>
+ </div> -->
+<!-- </div> -->
 
 
 
