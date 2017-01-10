@@ -12,12 +12,17 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 50px;
-
-  webkit-background-size: cover;
+  min-height: 480px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
 }
+
 
 
    h1 {
@@ -119,39 +124,39 @@ i {
 
 /* -------------------------------------
  * banner media queries
- * ------------------------------------- */
+ * -------------------------------------
 
 
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
-  .imageicones img {
-    width: 80px;
-  }
-}
+// @media (max-width: 480px) {
+//   .imageicones img {
+//     width: 80px;
+//   }
+// }
 
-// media queries background top
-@media screen and (max-width: 768px) {
-  .banner {
-    background-size: cover !important;
-    }
-}
+// // media queries background top
+// @media screen and (max-width: 768px) {
+//   .banner {
+//     background-size: cover !important;
+//     }
+// }
 
-@media (max-width: 480px) {
-  .banner {
-    background-size: cover !important;
-    }
-}
+// @media (max-width: 480px) {
+//   .banner {
+//     background-size: cover !important;
+//     }
+// }
 
-@media all and (max-width: 480px){
-   body {
-    margin: auto }
-   .backgroundicones {
-    width: auto;
-    justify-content: center;
-    padding-left: 30px;
-  }
-}
+// @media all and (max-width: 480px){
+//    body {
+//     margin: auto }
+//    .backgroundicones {
+//     width: auto;
+//     justify-content: center;
+//     padding-left: 30px;
+//   }
+// }
 
 
 
