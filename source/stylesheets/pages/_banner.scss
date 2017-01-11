@@ -30,3 +30,9 @@
 .banner-content {
   padding-bottom: 50px;
 }
+
+@media(max-width: 480px) {
+   .banner h1 {
+    font-size: 50px;
+  }
+}

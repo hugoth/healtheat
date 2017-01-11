@@ -28,23 +28,9 @@ i {
   .imageicones img {
     width: 80px;
   }
-  .banner h1 {
-    font-size: 50px;
-  }
 }
 
 // media queries background top
-@media screen and (max-width: 768px) {
-  .banner {
-    background-size: cover !important;
-  }
-}
-
-@media (max-width: 480px) {
-  .banner {
-    background-size: cover !important;
-  }
-}
 
 @media all and (max-width: 480px){
    body {
