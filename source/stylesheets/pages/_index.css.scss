@@ -37,27 +37,6 @@ h2, h3 {
 }
 
 
-// titre salades et smoothies
-
-.salades h1 {
-color: $healthygreen;
-font-size: 70px;
-}
-
-.smoothies {
-  display: inline-block;
-  margin-left: 0;
-  margin-right: 0;
-  h1 {
-  color: $healthygreen;
-  font-size: 70px;
-  }
-  h2 {
-    font-size: 25px;
-    white-space: nowrap;
-   }
-  }
-
 .backgroundicones {
   background-color: white;
   padding-top: 150px;
@@ -69,7 +48,7 @@ font-size: 70px;
 
 .text-center p {
   padding-top: 25%;
-  }
+}
 
 .alignlogo {
   padding-left: 80px;
@@ -104,7 +83,7 @@ i {
     width: 80px;
   }
   .banner h1 {
-  font-size: 50px;
+    font-size: 50px;
   }
 }
 
@@ -112,18 +91,19 @@ i {
 @media screen and (max-width: 768px) {
   .banner {
     background-size: cover !important;
-    }
+  }
 }
 
 @media (max-width: 480px) {
   .banner {
     background-size: cover !important;
-    }
+  }
 }
 
 @media all and (max-width: 480px){
    body {
-    margin: auto }
+    margin: auto
+  }
    .backgroundicones {
     width: auto;
     justify-content: center;
