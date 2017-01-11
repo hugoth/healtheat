@@ -1,48 +1,10 @@
 body {
-  margin: auto;
+  background-color: white;
+  font-family: "fonartoregular" ;
 }
-
 h2, h3 {
   font-family: $my-font;
 }
-
-
-.text-center p {
-  padding-top: 25%;
-}
-
-.alignlogo {
-  padding-left: 80px;
-}
-
-i {
-  width: 20px;
-}
-
-/* -------------------------------------
- * banner media queries
- * ------------------------------------- */
-
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-  .imageicones img {
-    width: 80px;
-  }
-}
-
-// media queries background top
-
-@media all and (max-width: 480px){
-   body {
-    margin: auto
-  }
-   .backgroundicones {
-    width: auto;
-    justify-content: center;
-    padding-left: 30px;
-  }
-}
-
 
 
 

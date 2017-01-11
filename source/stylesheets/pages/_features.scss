@@ -11,11 +11,18 @@
   }
 }
 
-#lowparagraphe {
-  padding-top: 10%;
-}
-
 .backgroundicones {
   background-color: white;
   padding-top: 150px;
+}
+
+@media (max-width: 480px) {
+  .imageicones img {
+    width: 80px;
+  }
+  .backgroundicones {
+    width: auto;
+    justify-content: center;
+    padding-left: 30px;
+  }
 }
