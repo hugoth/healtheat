@@ -1,5 +1,17 @@
+.salad-component {
+  margin-bottom: 3rem;
+}
 .salades h1 {
   color: $healthygreen;
   font-size: 70px;
   margin-bottom: 7rem;
+}
+
+@media (max-width: 480px) {
+  .salades h1 {
+    font-size: 50px;
+  }
+  .img-salad {
+    width: 200px;
+  }
 }
