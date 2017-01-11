@@ -1,6 +1,11 @@
 body {
   margin: auto;
 }
+
+h2, h3 {
+  font-family: $my-font;
+}
+
 .banner {
   color: white;
   text-align: center;
@@ -16,34 +21,23 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-
-  .banner h1 {
+  h1 {
     font-size: 100px;
     font-weight: bold;
     font-family: $my-font ;
     text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   }
-  .banner p {
+  p {
     font-family: $my-font ;
     font-size: 30px;
     font-weight: lighter;
     color: white;
     margin-bottom: 20px;
   }
-
-
-h2, h3 {
-  font-family: $my-font;
 }
 
 
 // titre salades et smoothies
-
-.salades {
-  padding-bottom: 500px;
-}
 
 .salades h1 {
 color: $healthygreen;
@@ -51,36 +45,18 @@ font-size: 70px;
 }
 
 .smoothies {
-  padding-bottom: 700px;
-  padding-top: 100px;
   display: inline-block;
   margin-left: 0;
   margin-right: 0;
-}
-
-.smoothies h1 {
-color: $healthygreen;
-font-size: 70px;
-}
-.smoothies h2 {
-  font-size: 25px;
-  white-space: nowrap;
-
-}
-
-
-// .demo-3 {
-//   padding-top: 50px;
-// }
-// .demo-3 img {
-// width: 10px;
-// height: 10px;
-// border-radius:50%;
-// -webkit-border-radius:50%;
-// -moz-border-radius: 50%;
-// }
-// fin salades et smoothies
-
+  h1 {
+  color: $healthygreen;
+  font-size: 70px;
+  }
+  h2 {
+    font-size: 25px;
+    white-space: nowrap;
+   }
+  }
 
 .backgroundicones {
   background-color: white;
