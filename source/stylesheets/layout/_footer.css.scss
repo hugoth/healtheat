@@ -1,0 +1,31 @@
+.footer {
+  background-color: $healthygreen;
+  height: 200px;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+.footer i{
+  font-size: 40px;
+  position: relative;
+}
+.fa {
+  color: white;
+}
+ .fa:hover {
+  color: $blue;
+ }
+/* -------------------------------------
+ * footer media queries
+ * ------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 100vh;
+    height: 600px;
+    background-size: cover !important;
+  }
+}
+
