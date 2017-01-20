@@ -34,6 +34,8 @@
 @media(max-width: 480px) {
   .banner {
     color: white;
+    height: auto;
+    width: auto;
   text-align: center;
   background-size: cover !important;
   background-attachment: fixed;
