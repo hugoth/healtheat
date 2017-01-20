@@ -17,6 +17,21 @@
  .fa:hover {
   color: $blue;
  }
+
+ .contact p:hover {
+  color: white;
+}
+.assistance p:hover {
+  color: white;
+}
+
+.assistance a {
+  text-decoration: none;
+    .assistance a:hover {
+    color: white;
+  }
+}
+
 /* -------------------------------------
  * footer media queries
  * ------------------------------------- */

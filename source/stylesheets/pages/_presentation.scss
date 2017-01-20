@@ -1,4 +1,4 @@
-.banner {
+.ourjob {
   color: white;
   text-align: center;
   height: 100vh;
@@ -9,9 +9,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 100px;
 
-  h1 {
+  h2 {
     font-size: 100px;
     font-weight: bold;
     font-family: $my-font ;
@@ -27,12 +27,12 @@
 }
 
 
-.banner-content {
+.ourjob-content {
   padding-bottom: 50px;
 }
 
 @media(max-width: 480px) {
-  .banner {
+  .ourjob {
     color: white;
   text-align: center;
   background-size: cover !important;
@@ -42,7 +42,7 @@
   justify-content: center;
   padding-top: 50px;
   }
-   .banner h1 {
+   .ourjob h1 {
     font-size: 50px;
   }
 }
