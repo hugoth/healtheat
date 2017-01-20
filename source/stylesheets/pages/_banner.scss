@@ -35,8 +35,6 @@
 @media(max-width: 480px) {
   .banner {
     color: white;
-    height: auto;
-    width: auto;
   text-align: center;
   background-size: cover !important;
   background-attachment: fixed;
@@ -50,11 +48,11 @@
   }
 }
 
-@media(min-width: 1200px) {
-   .banner {
-    background-attachment: fixed;
-    }
-}
+// @media(min-width: 1200px) {
+//    .banner {
+//     background-attachment: fixed;
+//     }
+// }
 
 
 
