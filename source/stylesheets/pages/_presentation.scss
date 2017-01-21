@@ -1,12 +1,17 @@
 .ourjob {
   color: white;
   text-align: center;
-  background-size: cover !important;
+  // background-size: cover !important;
   background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   h2 {
     font-size: 80px;
