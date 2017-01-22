@@ -9,4 +9,3 @@ $(window).scroll(function() {
         $(".navbar-wagon").css('background-color', 'transparent');
     }
 });
-
