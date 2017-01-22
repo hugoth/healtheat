@@ -7,6 +7,20 @@
   margin-bottom: 7rem;
 }
 
+.hoverbrigitte {
+position:relative;
+visibility:hidden;
+}
+
+.hoverbrigitte:hover .text {
+visibility:visible;
+}
+
+
+
+
+
+
 @media (max-width: 480px) {
   .salades h1 {
     font-size: 50px;
