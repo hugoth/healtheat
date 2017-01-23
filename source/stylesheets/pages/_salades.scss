@@ -21,7 +21,20 @@ visibility:visible;
 }
 
 .card {
-  background: white;
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+
+}
+.card-1 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.centersalade {
+  margin: auto;
+  float: none;
 }
 
 
