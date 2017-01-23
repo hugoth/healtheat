@@ -1,17 +1,17 @@
 .footer {
   background-color: $healthygreen;
-  height: 200px;
+  height: 150px;
 }
 
 .footer p {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .footer i{
-  font-size: 40px;
+  font-size: 30px;
   position: relative;
 }
-.fa {
+.fa-social {
   color: white;
 }
  .fa:hover {
@@ -20,6 +20,10 @@
 
  .contact p:hover {
   color: white;
+}
+
+.assistance h3 {
+  font-size: 15px;
 }
 .assistance p:hover {
   color: white;
