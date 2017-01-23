@@ -4,30 +4,43 @@
     <div class="text-center padded salades" id="menu">
       <h1> Les salades</h1>
 
-     <div class="card">
+
       <div class="col-xs-12 col-sm-6 col-md-6">
         <div class='salad-component'>
+        <div class="card" style="width: 40rem;">
 
-          <%= image_tag 'products/saladeune.jpg', width: '250px', class: 'img-circle img-salad' %>
+        <img class="card-img-top" src="/./images/products/saladeune.jpg" width="250px">
+            <div class="card-block">
 
-            <h2>Brigitte</h2>
+            <h2 class="card-title">Brigitte</h2>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
             <%= partial 'partials/snipcard-buttons/button_1' %>
+
+          </div>
+          </div>
        </div>
       </div>
-    </div>
+
 
       <div class="col-xs-12 col-sm-6 col-md-6">
         <div class='salad-component'>
+        <div class="card" style="width: 40rem;">
 
-          <%= image_tag 'products/saladedeux.jpg', width: '250px', class: 'img-circle img-salad' %>
+        <img class="card-img-top" src="/./images/products/saladedeux.jpg" width="250px">
+            <div class="card-block">
 
-            <h2>Pasquale</h2>
+            <h2 class="card-title">Pasquale</h2>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
             <%= partial 'partials/snipcard-buttons/button_2' %>
 
-        </div>
+
+            </div>
+          </div>
+       </div>
       </div>
+    </div>
 
 
     </div>
