@@ -1,5 +1,5 @@
 .intro {
-  height: 60vh;
+  height: 40vh;
   background-attachment: fixed;
   text-align: center;
 }
@@ -21,7 +21,7 @@
 
 .backgroundicones {
   background-color: white;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 @media (max-width: 480px) {
@@ -31,6 +31,6 @@
   .backgroundicones {
     width: auto;
     justify-content: center;
-    padding-left: 30px;
+    // padding-left: 30px;
   }
 }
