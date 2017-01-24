@@ -1,5 +1,6 @@
 .saladebackground {
   background: #F7F7F7;
+  width: auto;
 }
 
 
@@ -56,3 +57,17 @@ visibility:visible;
     width: 200px;
   }
 }
+
+@media (min-width: 480px){
+  .card-1 {
+    width: 40rem;
+  }
+}
+
+@media (max-width:480px){
+  .card-1 {
+    width: auto;
+  }
+}
+
+
