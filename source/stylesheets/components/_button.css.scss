@@ -10,10 +10,17 @@
 }
 .btncommander:hover {
   background-color: $green;
-  text-decoration: none;
   color: white;
 }
-
+.btncommander:link {
+  text-decoration: none;
+}
+.btncommander:visited {
+    text-decoration: none;
+}
+.btncommander:active {
+    text-decoration: none;
+}
 // <--fin bouton commander -->
 
 

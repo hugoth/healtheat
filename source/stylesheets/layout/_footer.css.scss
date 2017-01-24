@@ -1,5 +1,5 @@
 .footer {
-  background-color: $healthygreen;
+  background-color: #FFF;
   height: 150px;
 }
 
@@ -8,19 +8,25 @@
 }
 
 .footer i{
-  font-size: 30px;
+  font-size: 50px;
   position: relative;
+  text-decoration: none;
 }
-.fa-social {
-  color: white;
+.footer a {
+  text-decoration: none;
 }
- .fa:hover {
-  color: $blue;
- }
+.socialicones{
+  color: #F7F7F7;
+}
+.ss-facebook:hover {
+  color: $healthygreen;
+}
+.ss-instagram:hover {
+  color: $healthygreen;
+}
 
- .contact p:hover {
-  color: white;
-}
+
+
 
 .assistance h3 {
   font-size: 15px;
