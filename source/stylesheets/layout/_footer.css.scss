@@ -25,15 +25,24 @@
 .assistance h3 {
   font-size: 15px;
 }
+.assistance a {
+  color: #333333 ;
+}
+    .assistance a:hover {
+    color: white;
+  }
 .assistance p:hover {
   color: white;
 }
 
-.assistance a {
+.contact a {
   color: #333333 ;
     .assistance a:hover {
     color: white;
   }
+}
+.contact p {
+  font-size: 15px;
 }
 
 /* -------------------------------------

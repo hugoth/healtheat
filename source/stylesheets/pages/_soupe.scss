@@ -1,0 +1,28 @@
+.veloute{
+  background: #F7F7F7;
+}
+
+
+.soupe {
+  margin-left: 0;
+  margin-right: 0;
+  h1 {
+    color: $healthygreen;
+    font-size: 70px;
+    margin-bottom: 70px;
+
+  }
+  h2 {
+    font-size: 25px;
+    white-space: nowrap;
+   }
+}
+.smoothies-down {
+ padding-top: 2em;
+}
+
+@media (max-width: 480px) {
+  .veloute h1 {
+    font-size: 50px;
+  }
+}
