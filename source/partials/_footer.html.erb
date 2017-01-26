@@ -2,16 +2,23 @@
   <div class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <div class="adress">
-            <h3>Suivez-nous</h3>
-          <% link_to "https://www.facebook.com/healtheatbdx" , :target => "_blank" do %> <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a> <% end %>
-          <% link_to "https://www.instagram.com/healtheatbdx" , :target => "_blank" do %> <i class="fa fa-instagram" aria-hidden="true"></i>
-           </a> <% end %>
+        <div class="col-md-10 col-md-offset-1 content">
+          <div class="col-md-2 col-sm-2 logo-footer">
+            <% link_to "https://www.behealtheat.com/" do %>
+              <%= image_tag "logohe1.png" %>
+            <% end %>
+            <p>Health'eat</p>
+          </div>
+          <div class="col-xs-12 col-sm-5 col-md-5">
+            <div class="adress">
+              <h3>Suivez-nous</h3>
+            <% link_to "https://www.facebook.com/healtheatbdx" , :target => "_blank" do %> <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a> <% end %>
+            <% link_to "https://www.instagram.com/healtheatbdx" , :target => "_blank" do %> <i class="fa fa-instagram" aria-hidden="true"></i>
+             </a> <% end %>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="col-xs-12 col-sm-5 col-md-5">
           <div class="contact">
             <h3>Contact</h3>
             <p><a href="mailto:contact@behealtheat.com">contact@behealtheat.com</a></p>
@@ -19,13 +26,13 @@
             <p>24h/24</p>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-4 col-md-4">
-          <div class="assistance">
-            <h3>Health'eat SAS</h3>
-            <p>Tous droits réservés</p>
-            <p> <% link_to "/CGV.html" do %> CGV<% end %></p>
-            <p> <% link_to "/mentionslegales.html" do %> Mentions légales<% end %></p>
+        </div>
 
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="assistance">
+            <p class="text-center">Health'eat SAS- Tous droits réservés - <% link_to "/CGV.html" do %> CGV<% end %> - <% link_to "/mentionslegales.html" do %> Mentions légales<% end %></p>
           </div>
         </div>
       </div>

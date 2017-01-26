@@ -9,16 +9,12 @@
         <span class="icon-bar"></span>
       </button>
       <% link_to "https://www.behealtheat.com/", class: "navbar-brand" do %>
-        <%= image_tag "logohe1.png" %>
+        <%= image_tag "logohe1.png", class: "img-responsive" %>
       <% end %>
     </div>
 
-
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
       <ul class="nav navbar-nav navbar-right">
         <li id="scroll">
           <% link_to "/#menu" do %>
@@ -32,7 +28,7 @@
             <li><% link_to "https://www.instagram.com/healtheatbdx" , :target => "_blank" do %><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li> <% end %>
           </ul>
         </li>
-        <li><a href="https://www.behealtheat.com/#menu!/cart" class="btnpanier btn-secondary btn-lg">Panier</a></li>
+        <li><a href="https://www.behealtheat.com/#menu!/cart" class="btnpanier btn-secondary btn-lg"><i class="fa fa-shopping-basket"></i> Panier</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

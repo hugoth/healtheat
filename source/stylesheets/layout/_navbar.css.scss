@@ -90,9 +90,13 @@ $navbar-profile-border-width: 2px;
     }
   }
 
-  .navbar-brand img, .navbar-brand svg {
-    height: 80px;
+  .navbar-brand {
     padding: 0px;
+
+    img {
+      width: 25px;
+      padding: 10px 0 0 0;
+    }
   }
 
   .img-avatar{
@@ -138,7 +142,7 @@ $navbar-profile-border-width: 2px;
 @media screen and (max-width: 768px) {
   .navbar-wagon {
     .navbar-brand img, .navbar-brand svg {
-      height: 50px;
+      width: 15px;
     }
     .navbar-brand, .navbar-brand:hover
      {

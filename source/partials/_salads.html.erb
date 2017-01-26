@@ -1,49 +1,36 @@
  <div class="saladebackground">
   <div class="saladebackground-content">
-   <div class="container-fluid">
-  <div class="row">
-    <div class="text-center padded salades" id="menu">
-      <h1> Les salades</h1>
-
-      <div class="
-       col-xs-12 col-sm-6 col-md-6">
-        <div class='salad-component'>
-        <div class="card card-1">
-
-        <img class="card-img-top saladsize" src="/./images/products/brigitte.png">
-            <div class="card-block">
-
-            <h2 class="card-title">Brigitte</h2>
-            <p class="card-text">Du reve ou du quinoa ? Telle est la question, cette salade est pourtant bien réelle, son avocat réveillera vos papilles</p>
-
-            <%= partial 'partials/snipcard-buttons/button_1' %>
-
-          </div>
-          </div>
-       </div>
-      </div>
-
-
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <div class='salad-component'>
-        <div class="card card-1">
-
-        <img class="card-img-top saladsize" src="/./images/products/pasquale.png" width="250px">
-            <div class="card-block">
-
-            <h2 class="card-title">Pasquale</h2>
-             <p class="card-text">Du reve ou du quinoa ? Telle est la question, cette salade est pourtant bien réelle, son avocat réveillera vos papilles</p>
-
-            <%= partial 'partials/snipcard-buttons/button_2' %>
-
-
+   <div class="container">
+    <div class="row">
+      <div class="salades clearfix" id="menu">
+        <h1 class="text-center">Les salades</h1>
+        <div class="col-md-10 col-md-offset-1">
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class='salad-component'>
+              <div class="card card-1">
+                <img class="card-img-top img-responsive" src="/./images/products/brigitte.png">
+                <div class="card-block">
+                  <h2 class="card-title text-center">Brigitte</h2>
+                  <p class="card-text text-center">Du reve ou du quinoa ? Telle est la question, cette salade est pourtant bien réelle, son avocat réveillera vos papilles</p>
+                  <%= partial 'partials/snipcard-buttons/button_1' %>
+                </div>
+              </div>
             </div>
           </div>
-       </div>
-      </div>
+          <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class='salad-component'>
+              <div class="card card-1">
+                <img class="card-img-top img-responsive" src="/./images/products/pasquale.png">
+                <div class="card-block">
+                  <h2 class="card-title text-center">Pasquale</h2>
+                  <p class="card-text text-center">Du reve ou du quinoa ? Telle est la question, cette salade est pourtant bien réelle, son avocat réveillera vos papilles</p>
+                  <%= partial 'partials/snipcard-buttons/button_2' %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-
-
     </div>
   </div>
  </div>
