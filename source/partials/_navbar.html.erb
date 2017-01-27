@@ -13,8 +13,13 @@
       <% end %>
     </div>
 
+
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<!--     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <button type="button" class="btn btn-outline-secondary nav navbar-nav navbar-left btnmodal" data-toggle="modal" data-target="#modal">
+  Qui sommes nous ?
+</button> -->
+
       <ul class="nav navbar-nav navbar-right">
         <li id="scroll">
           <% link_to "/#menu" do %>
@@ -33,3 +38,23 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Health'eat: une histoire d'amis</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <p>Nous sommes 4 étudiants de Kedge Business School. Après avoir quitter le cocon familiale, nous avons étés étonnés, comme tous les étudiants, par le manque de diversité et de qualité des plats et aliments proposés sur notre campus. Nous sommes convaincus que malgré les faibles ressources dont un étudiants dispose ce dernier peut bien se nourir, j'écris de la merde blablabla....</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+

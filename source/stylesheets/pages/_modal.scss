@@ -1,0 +1,29 @@
+.btnmodal {
+  color: $navbar-color;
+  background: transparent;
+  border-color: transparent;
+  margin-left: 30px;
+  margin-top: 20px;
+  text-decoration: none;
+  outline: 0;
+}
+
+.btnmodal:hover {
+  color: $scandal ;
+  background:transparent;
+  border-color: transparent;
+  text-decoration: none;
+}
+
+
+.modal-body{
+  background: #F7F7F7;
+  }
+
+.modal-body p {
+  ont-family: $my-font;
+}
+
+.modal-header {
+background: #F7F7F7;
+}
