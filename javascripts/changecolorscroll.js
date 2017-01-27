@@ -1,7 +1,7 @@
-$(window).scroll(function() {
-    if ($(".navbar-wagon").offset().top > 50) {
-        $("nav > a").css('color', 'green');
-    } else {
-        $("nav > a").css('color', 'white');
-    }
-});
+// $(window).scroll(function() {
+//     if ($(".navbar-wagon").offset().top > 50) {
+//         $(".test").css('color', 'green');
+//     } else {
+//         $(".test").css('color', 'white');
+//     }
+// });
