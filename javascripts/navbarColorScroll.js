@@ -1,6 +1,5 @@
 //jQuery to collapse the navbar on scroll
 
-
 $(window).scroll(function() {
     if ($(".navbar-wagon").offset().top > 50) {
         $(".navbar-wagon").css('background-color', 'white');
