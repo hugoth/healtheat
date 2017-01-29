@@ -7,23 +7,13 @@
  font-style: italic;
 }
 
-.boutoneau {
+.btnwater {
   width:40px;
   height: 40px;
   border-radius: 50%;
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
-  color: $healthygreen;
-  background: transparent;
-  border: 1px solid $healthygreen;
-  margin: 5px;
+  margin-top: 4px;
 }
-.boutoneau:hover {
-  background-color: $green;
-  text-decoration: none;
-  color: white;
-}
+
 
 
 .cardwater {
