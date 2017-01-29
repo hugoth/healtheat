@@ -11,9 +11,13 @@
   width:40px;
   height: 40px;
   border-radius: 50%;
+  font-size: 20px;
   text-align: center;
   justify-content: center;
-  position: relative;
+  color: $healthygreen;
+  background: transparent;
+  border: 1px solid $healthygreen;
+  margin: 5px;
 }
 
 .cardwater {
