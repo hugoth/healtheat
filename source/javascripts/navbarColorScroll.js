@@ -1,11 +1,15 @@
-//jQuery to collapse the navbar on scroll
+$(document).ready(function(){
+            var scroll_pos = 0;
+            $(document).scroll(function() {
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 50) {
+                    $("nav").css('background-color', 'rgba(255, 255, 255, 0.7)')
+                    $(".change").css('color', 'white');
+                } else {
+                    $("nav").css('background-color', 'transparent');
+                    $(".change").css('color', '#01CDA4');
+                }
+            });
+        });
 
 
-$(window).scroll(function() {
-    if ($(".navbar-wagon").offset().top > 50) {
-        $(".navbar-wagon").css('background-color', 'white');
-        $(".navbar-wagon").css('box-shadow', '0 1px 5px 0 rgba(0,0,0,0.07)');
-    } else {
-        $(".navbar-wagon").css('background-color', 'transparent');
-    }
-});

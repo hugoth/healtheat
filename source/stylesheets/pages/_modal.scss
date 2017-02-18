@@ -1,5 +1,5 @@
 .btnmodal {
-  color: $navbar-color;
+  color: #01CDA4;
   background: transparent;
   border-color: transparent;
   margin-left: 30px;
@@ -16,14 +16,17 @@
 }
 
 
-.modal-body{
-  background: #F7F7F7;
-  }
+
 
 .modal-body p {
-  ont-family: $my-font;
+  font-family: $my-font;
 }
 
-.modal-header {
-background: #F7F7F7;
+
+.modal-content {
+  background-color: #1ABC9C;
+
+}
+.modal-title {
+  color: white;
 }
