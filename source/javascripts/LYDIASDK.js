@@ -33,7 +33,7 @@
     this.data = {
       vendor_token    : "",
       amount        : "",
-      recipient     : "",
+      recipient     : "0659785262",
       order_ref       : "",
       browser_success_url : "",
       browser_cancel_url  : "",
@@ -85,7 +85,7 @@
     }
 
     if (data.env && data.env == 'test') {
-      lydiaProcess.baseUrl  = "https://homologation.lydia-app.com/";
+      lydiaProcess.baseUrl  = "https://lydia-app.com";
     }
 
     if (data.render) {

@@ -1,16 +1,4 @@
-// $(document).ready(function (){
 
-//   $('.paragraphe1').css('opacity', '0');
-
-//   $('.backgroundicones').waypoint(function() {
-//     $('.paragraphe1').addClass('animated fadeInUp');
-//     $('.paragraphe1').css('opacity', '1');
-//       $('.imagesicones').delay(400).queue(function () {
-//         $(this).addClass('animated fadeInUp');
-//         $(this).css('opacity', '1');
-//   }, { offset: '100%' });
-//   });
-// });
 
 
 $(document).ready(function (){
